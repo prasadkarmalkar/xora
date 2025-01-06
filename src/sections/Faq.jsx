@@ -34,8 +34,10 @@ const Faq = () => {
 								<SingleFAQ singleFAQ={singleFAQ} key={singleFAQ.id} openFaq={openFaq} setOpenFaq={setOpenFaq} />
 							))}
 						</div>
+						<div className=' w-0.5 h-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-s2'></div>
 					</div>
 				</div>
+				<div className=' w-full h-0.5 absolute bottom-0 -z-1 bg-s2'></div>
 			</Element>
 		</section>
 	);
