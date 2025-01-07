@@ -26,7 +26,7 @@ const SingleFAQ = ({ singleFAQ, openFaq, setOpenFaq }) => {
 						setOpenFaq(!currentOpen ? singleFAQ.id : null)
 					}
 					className={clsx(
-						'hover:border-s4 border-s5 border-2 transition-all duration-500 faq-icon rounded-full bg-s5 size-12 flex justify-center items-center z-4',
+						'hover:border-s4 border-s5 border-2 transition-all duration-500 faq-icon rounded-full bg-s5 size-12 flex-48 flex justify-center items-center z-4',
 						openFaq === singleFAQ.id && 'after:rotate-180'
 					)}
 				></button>
