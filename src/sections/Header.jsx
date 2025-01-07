@@ -30,7 +30,7 @@ const Header = () => {
 			<div className='container flex h-14 items-center max-lg:px-5'>
 				<a className='lg;hidden flex-1 cursor-pointer z-2' href=''>
 					<img
-						src='/images/xora.svg'
+						src='images/xora.svg'
 						alt='Company Logo'
 						width={115}
 						height={55}
@@ -63,7 +63,7 @@ const Header = () => {
 										)}
 									>
 										<img
-											src='/images/xora.svg'
+											src='images/xora.svg'
 											alt='Company Logo'
 											width={160}
 											height={55}
@@ -79,13 +79,13 @@ const Header = () => {
 						</nav>
 						<div className='lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90 -z-1'>
 							<img
-								src='/images/bg-outlines.svg'
+								src='images/bg-outlines.svg'
 								width={900}
 								height={380}
 								className='relative z-2'
 							/>
 							<img
-								src='/images/bg-outlines-fill.png'
+								src='images/bg-outlines-fill.png'
 								width={900}
 								height={380}
 								className='absolute inset-0 mix-blend-soft-light opacity-5'
@@ -99,7 +99,7 @@ const Header = () => {
 					className='lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center'
 				>
 					<img
-						src={`/images/${isOpen ? 'close' : 'magic'}.svg`}
+						src={`images/${isOpen ? 'close' : 'magic'}.svg`}
 						alt='Hamberger Icon'
 						className='size-1/2 object-contain'
 					/>

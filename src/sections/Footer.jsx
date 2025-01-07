@@ -44,7 +44,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='absolute left-[calc(50%-32px)] top-28 max-lg:top-[calc(50%-40px)] bg-s2 p-3 rounded-full border-2 border-s4'>
-					<img src="/images/faq-logo.svg" alt="Logo" />
+					<img src="images/faq-logo.svg" alt="Logo" />
 				</div>
 				<div className='g6 flex-50 py-28 lg:px-28 max-lg:container '>
 					<h4 className='h4 text-p4 mb-5'>Subscribe</h4>

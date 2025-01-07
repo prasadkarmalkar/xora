@@ -10,7 +10,7 @@ const Download = () => {
 				<div className='relative flex container'>
 					<div className='lg:py-52 py-24'>
 						<img
-							src='/images/xora.svg'
+							src='images/xora.svg'
 							alt='Company Logo'
 							width={162}
 							height={55}
@@ -43,7 +43,7 @@ const Download = () => {
 								className='rounded-xl'
 								height={640}
 								width={856}
-								src='/images/screen.jpg'
+								src='images/screen.jpg'
 								alt='Platform Demo'
 							/>
 						</div>
