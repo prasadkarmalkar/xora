@@ -49,7 +49,7 @@ const Footer = () => {
 				<div className='g6 flex-50 py-28 lg:px-28 max-lg:container '>
 					<h4 className='h4 text-p4 mb-5'>Subscribe</h4>
 					<p className='max-w-440 body-1'>Sign up to our newsletter for feature updates and our undying love.</p>
-					<div className='mt-14 p-4 transition-borderColor duration-300 rounded-2xl flex justify-between items-center bg-s2 border-2 border-s3 hover:border-s4 cursor-text'>
+					<div className='max-w-512 mt-14 p-4 transition-borderColor duration-300 rounded-2xl flex justify-between items-center bg-s2 border-2 border-s3 hover:border-s4 cursor-text'>
 						<input className=' p-2 	flex-1 bg-transparent focus:outline-none' type="email" placeholder='youremail@yourdomain.com' />
 						<button className='hover:text-p1 border-2 border-s3 p-2 rounded-2xl'>Send</button>
 					</div>

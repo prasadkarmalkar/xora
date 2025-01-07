@@ -12,7 +12,7 @@ const Features = () => {
 							({ id, title, icon, caption, text, button }) => {
 								return (
 									<div
-										className='relative z-2 md:px-10 px-5 flex-50 max-md:g7 max-md:border-2 max-md:border-s3 max-md:rounded-3xl max-md:flex-320'
+										className='pb-5 relative z-2 md:px-10 px-5 flex-50 max-md:g7 max-md:border-2 max-md:border-s3 max-md:rounded-3xl max-md:flex-320'
 										key={id}
 									>
 										<div className='w-full flex justify-start items-start'>

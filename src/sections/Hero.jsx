@@ -12,10 +12,10 @@ const Hero = () => {
 							Video Editing
 						</div>
 
-						<h1 className='mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h-2 max-md:mb-4 max-md:text-5xl leading-12'>
+						<h1 className='h1 text-p4 uppercase max-lg:h-2 max-md:mb-4 max-lg:text-5xl leading-12'>
 							Amazingly Simple
 						</h1>
-						<p className='max-w-440 mt-24 mb-14 body-1 max-md:mb-10'>
+						<p className='max-w-440 max-lg:mt-24 mb-14 body-1 max-md:mb-10'>
 							We designed XORA AO Video Editor to be an easy to
 							use, quick to learn, and surprisngly powerful.
 						</p>
